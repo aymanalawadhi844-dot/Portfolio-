@@ -139,7 +139,7 @@
 
 
 /* إصلاح تمركز البطاقات والصناديق على الجوال */
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .card, .skill-card, .code-container, .project-card {
     width: 100% !important;
     max-width: 100% !important;
@@ -147,4 +147,12 @@
     margin-right: auto !important;
     box-sizing: border-box !important;
   }
+}*/
+
+
+
+/* تجربة سريعة للتأكد من أن التعديل يعمل */
+body {
+  background-color: red !important;
+  border: 10px solid yellow !important;
 }
